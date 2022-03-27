@@ -21,9 +21,11 @@ body{
 }
 .flex {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
     min-height: 100vh;
+    
 }
 .card {
     background-color: white;
@@ -79,4 +81,7 @@ body{
     letter-spacing: .1rem;
     color: var(--Darkgray);
     margin-top: .5rem;
+}
+.attributions {
+    padding: .5rem;
 }
