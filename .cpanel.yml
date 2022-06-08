@@ -3,4 +3,4 @@ deployment:
   task:
     - export DEPLOYPATH=/home1/jehufray/projects.jehufrayle.com/card-project
     - /bin/mkdir $DEPLOYPATH
-    - /bin/ cp -R ./. $DEPLOYPATH
+    - /bin/ cp -R . $DEPLOYPATH
