@@ -27,12 +27,22 @@ body{
     min-height: 100vh;
     
 }
+.card-container {
+    display: flex;
+    width: auto;
+    flex-wrap: nowrap;
+    padding: 10px;
+    overflow-x: scroll;
+    align-content: center;
+    justify-content: center;
+    gap: 20px;
+}
 .card {
     background-color: white;
     width: 350px;
     border-radius: 16px;
     overflow: hidden;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, .5);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, .25);
 }
 .card-header {
     width: 100%;
@@ -85,4 +95,5 @@ body{
 }
 .attributions {
     padding: .5rem;
+    margin: 0 auto;
 }
