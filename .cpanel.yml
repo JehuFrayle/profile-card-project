@@ -1,5 +1,5 @@
 ---
 deployment:
-  task:
+  tasks:
     - export DEPLOYPATH=/home1/jehufray/projects.jehufrayle.com/card-project
     - /bin/cp -R . $DEPLOYPATH
